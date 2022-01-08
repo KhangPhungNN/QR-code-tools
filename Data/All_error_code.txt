@@ -1,0 +1,12 @@
+All error code:
+
+AA00001:In main program(else), when you enter integers other than the given ones.
+AA00002:In main program(except), when you enter string and not integer. (ValueError)
+AA00003:In main program(except), when you press ctrl + c (KeyboardInterrupt)
+AB00001:In Convert_QR_to_text(except), File not found. The file structure is: ["name_of_the_file" + ".jpg(or other image format)"] (FileNotFoundError)
+AB00002:In Convert_QR_to_text(except), File not found. There must be no spaces in the filename (Type Error)
+AC00001:Fix Rename the file, the file name cannot contain special characters. (OSError)
+
+If you are in the loop, press "Exit::" to exit the program
+
+(C)2022 KP
