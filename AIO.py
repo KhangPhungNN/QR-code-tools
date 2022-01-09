@@ -1,9 +1,7 @@
 import os
 import time
 
-def startup():
-    print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; os.system('cls' if os.name == 'nt' else 'clear')
-startup()
+print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; os.system('cls' if os.name == 'nt' else 'clear')
 
 from colored import *
 
@@ -77,7 +75,7 @@ def main():
     Print_star(); print(fg('yellow')+"2. Convert text to QR code                                                                 "+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
     Print_star(); print(fg('red'   )+"3. Exit                                                                                    "+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
     Print_star(); print(             "                                                                                           "               ,end=" "); Print_star_no_end(); timesleep()
-    Print_star(); print(fg('blue'  )+"                                                              0. View error code and readme"+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
+    Print_star(); print(fg('blue'  )+"                                                                         0. View error code"+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
     Print()
     print("")
     def Condition():
