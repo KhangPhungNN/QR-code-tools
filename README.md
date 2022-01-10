@@ -35,5 +35,9 @@ Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang ph�
 
 Phần 1:
 - Khi enter sẽ xuất hiện dòng chữ: "Enter file name:", bạn nhập tên file vào đó (Lưu ý: tên file không được viết có các kí tự đặc biệt, viết không dấu và không khoảng trắng, có thể dùng dấu ghạch dưới " _ " thay cho khoảng trắng; File có định dạng hình ảnh và được đặt cùng địa chỉ với file AIO.py; Không được đổi tên thư mục Data)
+- Sau đó trên màn hình sẽ hiện nội dung của mã, cấu trúc như sau: "Output: [Nội dung của mã QR]".
+- Nhấn Enter để thoát.
+
+Phần 2:
 - 
 
