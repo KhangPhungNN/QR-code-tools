@@ -6,6 +6,8 @@
 - Bật file setup, nhấn add python to path (ở dòng góc dưới cùng)
 - Nhấp đúp vào file có tên AIO.py
 
+Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang phát triển, tạm thời chưa có file).
+
 * Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: https://www.facebook.com/KhangPhungNN.
 * Lưu ý nhẹ: File hiện chưa được test trên hệ điều hành macOS. (thật ra là đang test mà lỗi quá :vv)
 
@@ -16,4 +18,22 @@
 ![th](https://user-images.githubusercontent.com/97179275/148724072-e3a12b41-2e9b-480b-b4a9-151f5b90e20f.jpg)
 
 - Hoặc là file có tên TEST.jpg cũng là một mã QR code.
-- Mọi người có thể dịch được mã QR code này thông qua phần Convert QR code to text có trong chương trình của tôi.
+- Bạn có thể dịch được mã QR code này thông qua phần Convert QR code to text có trong chương trình của tôi.
+
+# Cách dùng QR code tools của mình
+- Mở File bằng cách như bước ở phần trên. Nếu bạn không mở được File, vui lòng liên hệ tôi bằng tài khoản facebook này: https://www.facebook.com/KhangPhungNN.
+- Khi mở lên, bạn cứ để nó chạy, đến khi hiện tới phần: "Checking module finish !, Welcome to my programme !"
+- Sau đó, bạn sẽ thấy màn hình chính: 
+
+![image](https://user-images.githubusercontent.com/97179275/148739593-e5761e9a-d8f5-4a36-9c25-e7450b18e0c5.png)
+
+- Chương trình gồm 2 phần chính là 2 phần phụ:
+- + 2 phần chính: Convert QR code to text (Chuyển đổi mã QR thành văn bản) và Convert text to QR code (Chuyển đổi văn bản thành mã QR).
+- + 2 phần phụ: Exit (Thoát) và View error code (Xem mã lỗi).
+
+- Để thực thi những phần trên, bạn nhập số tương ứng với nó vào rồi nhấn Enter.
+
+Phần 1:
+- Khi enter sẽ xuất hiện dòng chữ: "Enter file name:", bạn nhập tên file vào đó (Lưu ý: tên file không được viết có các kí tự đặc biệt, viết không dấu và không khoảng trắng, có thể dùng dấu ghạch dưới " _ " thay cho khoảng trắng; File có định dạng hình ảnh và được đặt cùng địa chỉ với file AIO.py; Không được đổi tên thư mục Data)
+- 
+
