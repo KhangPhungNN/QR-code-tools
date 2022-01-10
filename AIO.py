@@ -41,6 +41,7 @@ def Convert_QR_to_text(): #1
         text = Decode[0].data.decode('utf-8')
 
         print(fg('green')+"Output: "+attr('reset')+text)
+        Raw_Input()
     except FileNotFoundError:
         print(fg("red")+"Failed to detect! File not found! (code:AB00001) Enter:'Back::to::Main' to back to main program"+ attr('reset')) ; Convert_QR_to_text()
     # except TypeError:
