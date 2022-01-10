@@ -39,5 +39,6 @@ Phần 1:
 - Nhấn Enter để thoát.
 
 Phần 2:
+- Khi enter sẽ xuất hiện dòng chữ: "Enter the data will be converted: ", bạn nhập dữ liệu cần chuyển đổi qua QR code [được viết tự do, không yêu cầu hình thức, chỉ hỗ trợ định dạng UTF-8 (8-bit Unicode Transformation Format - Định dạng chuyển đổi Unicode 8-bit)].
 - 
 
