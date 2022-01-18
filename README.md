@@ -2,7 +2,7 @@
 Đây là chương trình được viết bằng ngôn ngữ lập trình python và chưa được build thành file có đuôi “.exe” để chạy trên windows. Vì thế cần tải python về, cụ thể các bước tải như sau:
 - Lên trang chủ: python.org để tải
 - Chọn phần Downloads 
-- Chọn Downloads for (windows hoặc macOS) [Bản mới nhất hiện tại đang là 3.10.1]
+- Chọn Downloads for (windows hoặc macOS) [Bản mới nhất khi file này được viết đang là 3.10.1]
 - Bật file setup, nhấn add python to path (ở dòng góc dưới cùng)
 - Nhấp đúp vào file có tên AIO.py
 
@@ -25,7 +25,7 @@ Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang ph�
 - Khi mở lên, bạn cứ để nó chạy, đến khi hiện tới phần: "Checking module finish !, Welcome to my programme !"
 - Sau đó, bạn sẽ thấy màn hình chính: 
 
-![image](https://user-images.githubusercontent.com/97179275/148739593-e5761e9a-d8f5-4a36-9c25-e7450b18e0c5.png)
+  ![image](https://user-images.githubusercontent.com/97179275/148739593-e5761e9a-d8f5-4a36-9c25-e7450b18e0c5.png)
 
 - Chương trình gồm 2 phần chính là 2 phần phụ:
 - + 2 phần chính: Convert QR code to text (Chuyển đổi mã QR thành văn bản) và Convert text to QR code (Chuyển đổi văn bản thành mã QR).
@@ -38,11 +38,15 @@ Phần 1 Convert QR code to text (Chuyển đổi mã QR thành văn bản):
 - Sau đó trên màn hình sẽ hiện nội dung của mã, cấu trúc như sau: "Output: [Nội dung của mã QR]".
 - Nhấn Enter để thoát.
 
+  ![Screen Shot 2022-01-18 at 16 58 10](https://user-images.githubusercontent.com/97179275/149915629-163854b5-a98b-409f-b708-0efed0461f4a.png)
+
 
 Phần 2 Convert text to QR code (Chuyển đổi văn bản thành mã QR):
 - Khi enter sẽ xuất hiện dòng chữ: "Enter the data will be converted: ", bạn nhập dữ liệu cần chuyển đổi qua QR code [được viết tự do, không yêu cầu hình thức, chỉ hỗ trợ định dạng UTF-8 (8-bit Unicode Transformation Format - Định dạng chuyển đổi Unicode 8-bit)].
 - Bước tiếp theo, bạn nhập tên của file (tên file đặt là gì cũng được, lưu ý: tên không được có kí tự đặc biệt, ví dụ “:”,… và không được có dấu khoảng trắng, có thể thay khoảng trắng bằng dấu ghạch dưới " _ "), xong enter để thực thi. (Lấy ví dụ tên file: File_name)
-- T sau đó sẽ hiện ra mã QR của bạn với nội dung mà bạn mới nhập ở bước trên.
+- Sau đó sẽ hiện ra mã QR của bạn với nội dung mà bạn mới nhập ở bước trên.
+
+  ![Screen Shot 2022-01-18 at 17 23 58](https://user-images.githubusercontent.com/97179275/149921422-f66e386a-c47c-4bc7-8651-f1ca971b2056.png)
 
 
 Phần 3 Exit (Thoát):
