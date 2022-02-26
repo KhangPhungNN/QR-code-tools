@@ -5,30 +5,34 @@ print("Download module to startup") ; os.system('python -m pip install --upgrade
 
 from colored import *
 
+def clrscr():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def check_modules():
     def check_py():
-        os.system('python -V')
+        os.system('python -V') ; print("or") ; os.system('python3 -V')
     def check_pip():
-        os.system('pip -V')
-    print(fg('light_sky_blue_3b')+"Checking module ..."+attr('reset'))
-    print(fg('light_sky_blue_3b')+"Current pip version: "+attr('reset'))
+        os.system('pip -V' if os.name == 'nt' else 'pip3 -V')
+    print(fg('light_sky_blue_3b')+"Checking module ..." + attr('reset'))
+    print(fg('light_sky_blue_3b')+"Current pip version: " + attr('reset'))
     check_pip()
-    print(fg('light_sky_blue_3b')+"Current python version: "+attr('reset'))
+    print(fg('light_sky_blue_3b')+"Current python version: " + attr('reset'))
     check_py()
-    print(fg('light_sky_blue_3b')+"Download the necessary modules: "+attr('reset'))
-    os.system('pip install qrcode')
-    os.system('pip install pyzbar')
-    os.system('pip install distlib')
-    os.system('pip install pillow')
-    print(fg('green')+"Checking module finish !"+attr('reset'),"\n"); print (fg('green')+"Welcome to my programme !"+ attr('reset'))
+    print(fg('light_sky_blue_3b')+"Download the necessary modules: " + attr('reset'))
+    os.system('pip install qrcode' if os.name == 'nt' else 'pip3 install qrcode')
+    os.system('pip install pyzbar' if os.name == 'nt' else 'pip3 install pyzbar')
+    os.system('pip install distlib' if os.name == 'nt' else 'pip3 install distlib')
+    os.system('pip install pillow' if os.name == 'nt' else 'pip3 install pillow')
+    print(fg('green')+"Checking module finish !" + attr('reset'),"\n"); print (fg('green')+"Welcome to my programme !"+ attr('reset'))
     time.sleep(2)
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clrscr()
 check_modules()
 
 import qrcode
 from PIL import Image
 from pip._vendor.distlib.compat import raw_input
 from pyzbar.pyzbar import *
+
 
 def Raw_Input():
     raw_input(fg("green")+"\nPress enter key to exit."+attr('reset'))
@@ -43,9 +47,7 @@ def Convert_QR_to_text(): #1
         print(fg('green')+"Output: "+attr('reset')+text)
         Raw_Input()
     except FileNotFoundError:
-        print(fg("red")+"Failed to detect! File not found! (code:AB00001) Enter:'Back::to::Main' to back to main program"+ attr('reset')) ; Convert_QR_to_text()
-    # except TypeError:
-    #     print(fg("red")+"Type Error! File not found! (code: AB00002)"+attr('reset'))
+        print(fg("red")+"Failed to detect! File not found!"+ attr('reset')) ; Convert_QR_to_text()
 
 def Convert_text_to_QR(): #2
     try:
@@ -57,28 +59,26 @@ def Convert_text_to_QR(): #2
         print(fg("green")+"File was successfully converted! File name: ",name+".jpg"+attr("reset"))
         show_img = Image.open(name+".jpg").show();Raw_Input()
     except OSError:
-        print(fg("red")+"Error! Please, Rename the file (code:AC00001)"+ attr('reset')) ; Convert_text_to_QR()
+        print(fg("red")+"Error! Please, Rename the file"+ attr('reset')) ; Convert_text_to_QR()
 
 def main():
     def timesleep():
         time.sleep(0.08)
     def Print():
         for i in range(1,49):
-            print(fg('pale_green_1a')+"*"+attr('reset'),end=" ")
+            print(fg('pale_green_1a')+"-"+attr('reset'),end=" ")
         timesleep()
-    def Print_star():
-        print(fg('pale_green_1a')+"*"+attr('reset'),end=" ")
-    def Print_star_no_end():
-        print(fg('pale_green_1a')+"*"+attr('reset'))
-    Print()
-    print("")
-    Print_star(); print(fg('green' )+"1. Convert QR code to text                                                                 "+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
-    Print_star(); print(fg('yellow')+"2. Convert text to QR code                                                                 "+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
-    Print_star(); print(fg('red'   )+"3. Exit                                                                                    "+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
-    Print_star(); print(             "                                                                                           "               ,end=" "); Print_star_no_end(); timesleep()
-    Print_star(); print(fg('blue'  )+"                                                                         0. View error code"+ attr('reset'),end=" "); Print_star_no_end(); timesleep()
-    Print()
-    print("")
+
+    def MENU():
+        Print() ; print("")
+        print(fg('green' )+"1. Convert QR code to text                                                                    "+ attr('reset')); timesleep()
+        print(fg('yellow')+"2. Convert text to QR code                                                                    "+ attr('reset')); timesleep()
+        print(fg('red'   )+"3. Exit                                                                                       "+ attr('reset')); timesleep()
+        print(             "                                                                                              "               ); timesleep()
+        print(fg('blue'  )+"                                                                            0. View error code"+ attr('reset')); timesleep()
+        Print() ;print("")
+    MENU()
+
     def Condition():
         try:
             print("Choose [",fg('blue')+"0"+ attr('reset'),",",end="");print(fg("green")+" 1"+attr('reset'),", ",end="");print(fg('yellow')+"2"+attr('reset'),end="");print(" (",end="");print(fg('red')+"3"+attr('reset'),end="");print(" to exit) ]: ",end="");Input = int(input())
@@ -89,8 +89,15 @@ def main():
             elif Input == 3:
                 os.system('exit')
             elif Input == 0:
-                os.startfile("Data\\All_error_code.txt")
-                Condition()
+                clrscr()
+                print('''
+-------------------------------------------------------------
+AA00001: In main program, when you enter integers other than the given ones.
+AA00002: In main program, when you enter string and not integer. (ValueError)
+AA00003: In main program, when you press ctrl + c. (KeyboardInterrupt)
+-------------------------------------------------------------''')
+                raw_input(fg("green")+"\nPress any key to exit."+attr('reset')) ; clrscr()
+                MENU() ; Condition()
             elif Input == "Exit::":
                 os.system('exit')
             else:
