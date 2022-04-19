@@ -8,13 +8,11 @@
 - Chọn phần Downloads 
 - Chọn Downloads for windows (hoặc macOS) [Bản mới nhất khi file này được viết đang là 3.10.1]
 - Bật file setup, nhấn add python to path (ở dòng góc dưới cùng)
-- Nhấp đúp vào file có tên AIO.py
+- Nhấp đúp vào file có tên QR_code_tools.py
 
 >***Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang phát triển, tạm thời chưa có file).***
 >
 >***Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
->
->***Lưu ý nhẹ: File hiện chưa được test trên hệ điều hành macOS. (thật ra là đang test mà lỗi quá :vv)***
   
 </details>
 
