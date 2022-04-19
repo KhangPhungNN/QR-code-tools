@@ -1,9 +1,8 @@
 # QR code tools
 
-<details>
 <summary><strong>Cách tải và mở File</strong></summary>
   
-Đây là chương trình được viết bằng ngôn ngữ lập trình python và chưa được build thành file có đuôi “.exe” để chạy trên windows. Vì thế cần tải python về, cụ thể các bước tải như sau:
+Chương trình được viết bằng ngôn ngữ lập trình python và chưa được build thành file có đuôi “.exe” để chạy trên windows. Vì thế cần tải python về để chạy file, cụ thể các bước tải như sau:
 - Lên trang chủ: python.org để tải
 - Chọn phần Downloads 
 - Chọn Downloads for windows (hoặc macOS) [Bản mới nhất khi file này được viết đang là 3.10.1]
@@ -14,11 +13,9 @@
 >
 >***Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
   
-</details>
 
 # QR code (Quick response code) là gì ?
 
-<details>
 <summary><strong>Định nghĩa và ví dụ của QR code (Quick response code)</strong></summary>
   
 - QR Code (mã QR) là viết tắt của Quick response code (Tạm dịch: Mã phản hồi nhanh), hoặc có thể gọi là Mã vạch ma trận (Matrix-barcode) hay Mã vạch 2 chiều (2D). Đây là một dạng thông tin được mã hóa để hiển thị sao cho máy có thể đọc được. QR Code xuất hiện lần đầu tiên vào năm 1994, được tạo ra bởi Denso Wave (công ty con của Toyota). QR Code bao gồm những chấm đen và ô vuông mẫu trên nền trắng, có thể chứa những thông tin như URL, thời gian, địa điểm của sự kiện, mô tả, giới thiệu một sản phẩm nào đó,... QR Code cho phép quét và đọc mã nhanh hơn bằng các thiết bị như máy đọc mã vạch hoặc điện thoại có camera với ứng dụng cho phép quét mã, vô cùng tiện lợi cho người dùng.
@@ -29,11 +26,9 @@
 - Hoặc là file có tên TEST.jpg cũng là một mã QR code.
 - Bạn có thể dịch được mã QR code này thông qua phần Convert QR code to text có trong chương trình của tôi.
   
-</details>
 
 # Cách dùng QR code tools của mình
 
-<details>
 <summary><strong>Các phần chính và ví dụ trong chương trình</strong></summary>
   
 - Mở File bằng cách như bước ở phần trên. Nếu bạn không mở được File, vui lòng liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).
@@ -92,4 +87,3 @@
 
 </details>
   
-</details>
