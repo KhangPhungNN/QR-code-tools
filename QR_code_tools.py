@@ -111,8 +111,3 @@ AA00003: In main program, when you press ctrl + c. (KeyboardInterrupt)
 if __name__ == "__main__":
     main()
 
-
-
-
-
-
