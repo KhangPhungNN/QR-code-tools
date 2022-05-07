@@ -9,6 +9,8 @@ Chương trình được viết bằng ngôn ngữ lập trình python và chưa
 - Bật file setup, nhấn add python to path (ở dòng góc dưới cùng)
 - Nhấp đúp vào file có tên QR_code_tools.py
 
+Video demo QR-code-tools -> [Demo QR-code-tools]()
+
 >***Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang phát triển, tạm thời chưa có file).***
 >
 >***Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
