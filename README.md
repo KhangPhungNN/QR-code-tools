@@ -11,8 +11,6 @@ Chương trình được viết bằng ngôn ngữ lập trình python và chưa
 
 Video demo QR-code-tools -> [Demo QR-code-tools](https://www.youtube.com/watch?v=NV8Up8Iwtsw)
 
->***Hoặc chạy File Check_and_install_python.cmd dưới quyền admin (Đang phát triển, tạm thời chưa có file).***
->
 >***Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
   
 
