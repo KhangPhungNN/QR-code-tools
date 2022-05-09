@@ -39,7 +39,7 @@ Video demo QR-code-tools -> [Demo QR-code-tools](https://www.youtube.com/watch?v
 
   ![image](https://user-images.githubusercontent.com/97179275/148739593-e5761e9a-d8f5-4a36-9c25-e7450b18e0c5.png)
 
-- Chương trình gồm 4:
+- Chương trình gồm 4 phần:
     - 2 phần chính: Convert QR code to text (Chuyển đổi mã QR thành văn bản) và Convert text to QR code (Chuyển đổi văn bản thành mã QR).
     - 2 phần phụ: Exit (Thoát) và View error code (Xem mã lỗi).
 > Để thực thi những phần trên, bạn nhập số tương ứng với nó vào rồi nhấn Enter.
