@@ -5,7 +5,7 @@
 Chương trình được viết bằng ngôn ngữ lập trình python và chưa được build thành file có đuôi “.exe” để chạy trên windows. Vì thế cần tải python về để chạy file, cụ thể các bước tải như sau:
 - Lên trang chủ: python.org để tải
 - Chọn phần Downloads 
-- Chọn Downloads for windows (hoặc macOS) [Bản mới nhất khi file này được viết đang là 3.10.4]
+- Chọn Downloads for windows (hoặc macOS) [Bản mới nhất đang là 3.10.4 (5/10/2022)]
 - Bật file setup, nhấn add python to path (ở dòng góc dưới cùng)
 - Nhấp đúp vào file có tên QR_code_tools.py
 
