@@ -6,15 +6,30 @@ Chương trình được viết bằng ngôn ngữ lập trình python và chưa
 
 <details>
 <summary>Dùng File Check_and_install_python.cmd trong chương trình để tự động cài Python</summary>
-  
-- Lưu ý: File cần chạy trong Windows PowerShell, cụ thể các bước:
-  - Bật Windows PowerShell 
 
+- Chạy file dưới quyền Admin
+- Đợi khoảng 4-5 phút để File chạy
+- Sau khi hiện dòng chữ "Press any key to continue . . .", nhấn bất kì phím để thoát chương trình.
+
+</details>
+
+<details>
+<summary>Tải Python theo cách thủ công</summary>
+
+- Lên trang chủ: python.org để tải
+- Chọn phần Downloads
+- Chọn Downloads for (windows hoặc macOS) [Bản mới nhất khi file này được viết đang là 3.10.4]
+- Bật file setup, nhấn add python 3.x.x to PATH (ở dòng dưới) <ảnh: osstuff.com>
+
+  ![image](https://user-images.githubusercontent.com/97179275/168414883-69a2063a-5a1a-4e8a-9fe5-36a9f01706a0.png)
+
+- Nhấp đúp vào file có tên AIO.py
+  
 </details>
 
 Video demo QR-code-tools -> [Demo QR-code-tools](https://www.youtube.com/watch?v=NV8Up8Iwtsw)
 
->***Nếu làm theo cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
+>***Nếu làm theo những cách trên không được, liên hệ tôi bằng tài khoản facebook này: [MyFacebook](https://www.facebook.com/KhangPhungNN).***
   
 
 # QR code (Quick response code) là gì ?
