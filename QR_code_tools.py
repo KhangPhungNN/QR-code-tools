@@ -1,7 +1,7 @@
 import os
 import time
 
-#print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; #os.system('cls' if os.name == 'nt' else 'clear')
+print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; #os.system('cls' if os.name == 'nt' else 'clear')
 
 from colored import *
 
@@ -25,7 +25,7 @@ def install_modules():
     #####################
     print(fg('green')+"Checking module finish !" + attr('reset'),"\n"); print (fg('green')+"Welcome to my programme !"+ attr('reset')); time.sleep(1)
     clrscr()
-# install_modules()
+install_modules()
 
 import qrcode
 from PIL import Image
