@@ -1,12 +1,12 @@
 import os
 import time
 
-print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; #os.system('cls' if os.name == 'nt' else 'clear')
+print("Download module to startup") ; os.system('python -m pip install --upgrade pip') ; os.system('pip install colored') ; os.system('cls' if os.name == 'nt' else 'clear')
 
 from colored import *
 
 def clrscr():
-    #os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
     pass
 
 def install_modules():
